@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact - Yasasri Valluri</title>
+  <link rel="stylesheet" href="style.css"> 
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #f5f5f5;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      min-height: 100vh;
+    }
+
+    nav {
+      width: 100%;
+      background-color: #333; /* dark grey */
+      display: flex;
+      justify-content: center;
+      padding: 15px 0;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    nav a {
+      margin: 0 20px;
+      text-decoration: none;
+      color: #fff; /* white text */
+      font-weight: bold;
+      font-size: 1.1rem;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #ccc; /* light grey on hover */
+    }
+
+    .contact-box {
+      background: #d8c6c6;
+      padding: 40px;
+      border-radius: 35px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      max-width: 360px;
+      margin-top: 80px;
+    }
+
+    h1 {
+      margin-bottom: 25px;
+      color: #333;
+    }
+
+    .icons, .icon {
+      display: flex;
+      justify-content: center;
+      gap: 25px;
+      flex-wrap: wrap;
+    }
+
+    .icons a, .icon a {
+      display: inline-block;
+      width: 60px;
+      height: 60px;
+      background: white;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-decoration: none;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+      transition: transform 0.2s ease;
+      overflow: hidden;
+    }
+
+    .icons a:hover, .icon a:hover {
+      transform: scale(1.1);
+    }
+
+    .icons a img {
+      width: 130%;
+      height: 130%;
+      object-fit: contain;
+    }
+
+    .icon a img {
+      width: 95%;
+      height: 95%;
+      object-fit: contain;
+    }
+
+    .email {
+      margin-top: 25px;
+      font-size: 1rem;
+      color: #555;
+    }
+
+    .email a {
+      color: #333;
+      text-decoration: none;
+    }
+
+    .email a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="chat.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="projects.html">Projects</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <div class="contact-box">
+    <h1>Contact Me</h1>
+    <div class="icons">
+      <a href="https://www.linkedin.com/in/yasasri-valluri-208ab1334/" target="_blank">
+        <img src="linkedin.jpg" alt="LinkedIn" />
+      </a>
+      <a href="https://github.com/Yasasri16/" target="_blank">
+        <img src="github.png" alt="GitHub" />
+      </a>
+      <a href="https://discord.gg/9fntXNfq" target="_blank">
+        <img src="discord.jpg" alt="Discord"/>
+      </a>
+    </div>
+    <br>
+    <div class="icon">
+      <a href="mailto:yasasrivalluri@gmail.com">
+        <img src="gmail.png" alt="Gmail" />
+      </a>
+    </div>
+    <br>
+    <p style="font-family: 'Lucida Sans', sans-serif;"><i>Feel free to contact me!</i> 😁</p>
+  </div>
+  <footer>
+    <p>&copy; 2025 Yasasri Valluri. All rights reserved.</p>
+  </footer>
+</body>
+</html>
