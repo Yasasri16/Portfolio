@@ -154,7 +154,7 @@ body {
  /* RESPONSIVE STYLES  */
 
 /* Small devices (phones) */
-@media (max-width: 600px) {
+@media (max-width: 1200px) {
     ul {
         flex-direction: column;
         align-items: center;
